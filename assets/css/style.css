@@ -1,0 +1,54 @@
+html {
+  font-family:"Microsoft YaHei", Verdana, Geneva, sans-serif;
+  background-image:url(../../images/background.jpg);
+  background-size:cover;
+  color: #fff;
+  text-align: center;
+}
+
+.main {
+  background: rgba(190,190,190,0.2);
+  border-radius:30px;
+  padding-top: 1%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 2%;
+}
+
+.avatar {
+  border-radius:50%;
+  margin: 2%;
+
+}
+
+.about {
+  font-size: 1.4em;
+  padding-bottom: 1%;
+}
+
+.link {
+  padding-bottom: 1%;
+}
+
+.copy {
+  margin-top: 5%;
+  font-size: 1em;
+}
+
+@media screen and (max-width:720px){
+  .main {
+    background:none;
+    margin:0 auto;
+  }
+}
+
+.Snow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: rgba(255,255,240,0.1);
+    pointer-events: none;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang=zh-CN>
+  <head>
+	<meta name="browsermode" content="application" />
+	<meta name="full-screen" content="yes" />
+	<meta name="format-detection" content="telephone=no,email=no" />
+	<meta name="msapplication-TileImage" content="images/logo.png" />
+	<meta name="msapplication-TileColor" content="#010000" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent "/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="theme-color" content="#010000" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	<meta name="renderer" content="webkit" />
+	<meta charset="UTF-8" />
+	<meta http-equiv="windows-Target" content="_top" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1/">
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<title>这是一个彩蛋！</title>
+	<link rel="apple-touch-icon" href="images/logo.png" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/css/app.css">
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="Bookmark" href="images/logo.png" type="image/x-icon" />
+  </head>
+	<noscript>
+	<iframe scr="*.htm"></iframe>
+	</noscript>
+ <body>
+	<body oncontextmenu="return false;" onselectstart="return false">
+	<div class="Snow">
+    <canvas id="Snow"></canvas>
+	</div>
+	<script src="assets/js/koyuki.js"></script>
+		<div class="gauntlet" id="gauntlet">
+		<img class="avatar" src="images/shigure.jpg" alt="LOGO" width="100" height="100" />
+		</div>
+	<div class="main">
+      <h1 class="head-text">Love and Peace!!</h1>
+      <div class="about">
+		<p>是米酒<br />ゼロとイチ、交わる時。<br /></p>	
+		<p><small><font style="color:transparent">成为米酒的伙伴吧。</font></small></p>
+        <div class="link">
+          <a href="index.html"><img src="images/1.svg" width="49%"></img></a>
+        </div>
+      </div>
+    </div>
+	 <div onclick="playMoe();" style="margin: 10px auto;display: block;padding: 5px 5px;" class="btn z">
+		<p class="copy"><small> &copy;点我卖萌>w< </small></p>
+	 </div>
+	<audio id="Mp3Me">
+	<source type="audio/wav">
+	</audio>
+	<script type="text/javascript">
+
+	function randomInt(x1,x2)
+	{
+		var min_int = parseInt(x1);
+		var max_int = parseInt(x2);
+	if ( isNaN(min_int) || isNaN(max_int) )
+	{
+		alert('parameter error');
+		return false;
+	}
+		x1 = Math.min(min_int,max_int);
+		x2 = Math.max(min_int,max_int);
+ 
+	return x1 + Math.floor(Math.random() * (x2 - x1 + 1));
+	}
+
+	function playMoe()
+		{
+		var random = randomInt(29,60);
+		var Mp3Me= document.getElementById('Mp3Me');
+		Mp3Me.src = "http://chii.in/img/ukagaka_voice/wave"+random+".wav";
+		Mp3Me.play();
+	}
+	</script>
+	<script src="assets/js/html2canvas.min.js"></script>
+    <script src="assets/js/app..js"></script>
+  </body>
+</html>
