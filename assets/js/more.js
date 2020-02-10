@@ -117,18 +117,22 @@
 })(jQuery);
 
 {//console 彩蛋
-      console.log(" %c 你若要說“早上好” ","color:#06325E" );
-	  console.log(" %c 我就回以“早·上·好” ","color:#06325E" );
+      console.info(" %c 「マキシマム、広がる世界」 ","color:#902225" );
+	  console.info(" %c 「抱きしめる、愛する世界」 ","color:#65C8D7" );
       
-	  console.log(" %c “你好嗎”的話 ","color:#041941" );
-	  console.log(" %c 就是“你·好·嗎” ","color:#041941" );
+	  console.info(" %c 「新しい時代に向かい」 ","color:#902225" );
+	  console.info(" %c 「捧げるPlusの願い」 ","color:#65C8D7" );
 	  
-	  console.log(" %c “晚上好”的話 ","color:#7295CA" );
-	  console.log(" %c 就“晚·上·好” ","color:#7295CA" );
+	  console.info(" %c 「100億の瞳の中で」 ","color:#902225" );
+	  console.info(" %c 「4千の年月を越え」 ","color:#65C8D7" );
 	
-	  console.log(" %c 但是呢 ","color:#0D57A2" );
-	  console.log(" %c 你若說「喜歡」與我的話 ","color:#0D57A2" );
+	  console.info(" %c 「今、ワタシ達は立ってる」 ","color:#902225" );
+	  console.info(" %c 「仮想とリアルの彼方」 ","color:#65C8D7" );
 	  
-	  console.log(" %c 我亦會以 ","color:#" );
-	  console.log(" %c 「最喜歡」","color:#990917","永至與你");
+	  console.info(" %c 「解き放て、二つのレガシー」 ","color:#902225" );
+	  console.info(" %c 「現在を越えて、ヒストリー」 ","color:#65C8D7" );
+	
+	  console.info(" %c 「紡ぎだす、二人のエナジー」 ","color:#902225" );
+	  console.info(" %c 「巻き起こすよ、ストリーム」 ","color:#65C8D7" );
+
 }
