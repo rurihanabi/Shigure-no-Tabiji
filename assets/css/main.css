@@ -1,11 +1,5 @@
-@import url(font-awesome.min.css);
+@import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
-
-/*
-	Ethereal by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -733,21 +727,27 @@ input, select, textarea {
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				display: inline-block;
 				font-style: normal;
-				font-weight: normal;
+				font-variant: normal;
+				text-rendering: auto;
+				line-height: 1;
 				text-transform: none !important;
+				font-family: 'Font Awesome Free';
+				font-weight: 900;
 			}
 
-			input[type="checkbox"] + label:before, input[type="radio"] + label:before {
+			input[type="checkbox"] + label:before,
+			input[type="radio"] + label:before {
 				content: '';
 				display: inline-block;
+				font-size: 0.8rem;
 				position: absolute;
 				top: 0;
 				left: 0;
-				width: 1.5rem;
-				height: 1.5rem;
-				line-height: 1.4375rem;
+				width: 1.6875rem;
+				height: 1.6875rem;
+				line-height: 1.6875rem;
 				background: rgba(255, 255, 255, 0.075);
 				border: solid 1px rgba(255, 255, 255, 0.25);
 				border-radius: 0.25rem;
@@ -755,8 +755,8 @@ input, select, textarea {
 				text-align: center;
 			}
 
-				body.is-ie input[type="checkbox"] + label:before,
-				body.is-ie input[type="radio"] + label:before {
+				body.is-ie input[type="checkbox"] + label:before, body.is-ie
+				input[type="radio"] + label:before {
 					line-height: 1.5;
 				}
 
@@ -837,14 +837,30 @@ input, select, textarea {
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			display: inline-block;
 			font-style: normal;
-			font-weight: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
 			text-transform: none !important;
+			font-family: 'Font Awesome Free';
+			font-weight: 400;
 		}
 
 		.icon > .label {
 			display: none;
+		}
+
+		.icon:before {
+			line-height: inherit;
+		}
+
+		.icon.solid:before {
+			font-weight: 900;
+		}
+
+		.icon.brands:before {
+			font-family: 'Font Awesome Brands';
 		}
 
 /* Image */
@@ -1962,15 +1978,15 @@ input, select, textarea {
 			}
 
 			.gallery .group .span-0-25 {
-				width: 8.3333325%;
+				width: 8.33333%;
 			}
 
 			.gallery .group .span-0-5 {
-				width: 16.666665%;
+				width: 16.66666%;
 			}
 
 			.gallery .group .span-0-75 {
-				width: 24.9999975%;
+				width: 25.0%;
 			}
 
 			.gallery .group .span-1 {
@@ -1978,15 +1994,15 @@ input, select, textarea {
 			}
 
 			.gallery .group .span-1-25 {
-				width: 41.6666625%;
+				width: 41.66666%;
 			}
 
 			.gallery .group .span-1-5 {
-				width: 49.999995%;
+				width: 49.99999%;
 			}
 
 			.gallery .group .span-1-75 {
-				width: 58.3333275%;
+				width: 58.33333%;
 			}
 
 			.gallery .group .span-2 {
@@ -1994,15 +2010,15 @@ input, select, textarea {
 			}
 
 			.gallery .group .span-2-25 {
-				width: 74.9999925%;
+				width: 74.99999%;
 			}
 
 			.gallery .group .span-2-5 {
-				width: 83.333325%;
+				width: 83.33332%;
 			}
 
 			.gallery .group .span-2-75 {
-				width: 91.6666575%;
+				width: 91.66666%;
 			}
 
 			.gallery .group .span-3 {
@@ -2010,15 +2026,15 @@ input, select, textarea {
 			}
 
 			.gallery .group .span-3-25 {
-				width: 108.3333225%;
+				width: 108.33332%;
 			}
 
 			.gallery .group .span-3-5 {
-				width: 116.666655%;
+				width: 116.66665%;
 			}
 
 			.gallery .group .span-3-75 {
-				width: 124.9999875%;
+				width: 124.99999%;
 			}
 
 			.gallery .group .span-4 {
@@ -2026,15 +2042,15 @@ input, select, textarea {
 			}
 
 			.gallery .group .span-4-25 {
-				width: 141.6666525%;
+				width: 141.66665%;
 			}
 
 			.gallery .group .span-4-5 {
-				width: 149.999985%;
+				width: 149.99998%;
 			}
 
 			.gallery .group .span-4-75 {
-				width: 158.3333175%;
+				width: 158.33332%;
 			}
 
 			.gallery .group .span-5 {
@@ -2042,15 +2058,15 @@ input, select, textarea {
 			}
 
 			.gallery .group .span-5-25 {
-				width: 174.9999825%;
+				width: 174.99998%;
 			}
 
 			.gallery .group .span-5-5 {
-				width: 183.333315%;
+				width: 183.33331%;
 			}
 
 			.gallery .group .span-5-75 {
-				width: 191.6666475%;
+				width: 191.66665%;
 			}
 
 			.gallery .group .span-6 {
@@ -2058,15 +2074,15 @@ input, select, textarea {
 			}
 
 			.gallery .group .span-6-25 {
-				width: 208.3333125%;
+				width: 208.33331%;
 			}
 
 			.gallery .group .span-6-5 {
-				width: 216.666645%;
+				width: 216.66664%;
 			}
 
 			.gallery .group .span-6-75 {
-				width: 224.9999775%;
+				width: 224.99998%;
 			}
 
 			.gallery .group .span-7 {
@@ -2074,15 +2090,15 @@ input, select, textarea {
 			}
 
 			.gallery .group .span-7-25 {
-				width: 241.6666425%;
+				width: 241.66664%;
 			}
 
 			.gallery .group .span-7-5 {
-				width: 249.999975%;
+				width: 249.99997%;
 			}
 
 			.gallery .group .span-7-75 {
-				width: 258.3333075%;
+				width: 258.33331%;
 			}
 
 			.gallery .group .span-8 {
@@ -2090,15 +2106,15 @@ input, select, textarea {
 			}
 
 			.gallery .group .span-8-25 {
-				width: 274.9999725%;
+				width: 274.99997%;
 			}
 
 			.gallery .group .span-8-5 {
-				width: 283.333305%;
+				width: 283.3333%;
 			}
 
 			.gallery .group .span-8-75 {
-				width: 291.6666375%;
+				width: 291.66664%;
 			}
 
 			.gallery .group .span-9 {
@@ -2106,15 +2122,15 @@ input, select, textarea {
 			}
 
 			.gallery .group .span-9-25 {
-				width: 308.3333025%;
+				width: 308.3333%;
 			}
 
 			.gallery .group .span-9-5 {
-				width: 316.666635%;
+				width: 316.66663%;
 			}
 
 			.gallery .group .span-9-75 {
-				width: 324.9999675%;
+				width: 324.99997%;
 			}
 
 			.gallery .group .span-10 {
@@ -2208,7 +2224,6 @@ input, select, textarea {
 			}
 
 /*真是个坏东西*/
-
 			.panel > *.color1-alt {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(91, 90, 158, 0.175) 25%, rgba(85, 165, 194, 0.175) 50%, rgba(237, 242, 168, 0.175));
 				background-size: 128px 128px, auto;
@@ -2238,7 +2253,6 @@ input, select, textarea {
 				background-size: 128px 128px, auto;
 				background-color: #5b5a9e;
 			}
-
 		.panel > .intro {
 			padding: 3.5rem 3.5rem 2rem 3.5rem ;
 			display: -moz-flex;
@@ -2745,7 +2759,8 @@ input, select, textarea {
 
 		
 	/*你猜怎么着，我明明写这段的时候，我和上帝都知道这段是什么意思*/
-
+	/*但现在只有上帝知道这段是什么意思了。*/
+	
 		.panel.color1-alt {
 			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(91, 90, 158, 0.175) 25%, rgba(85, 165, 194, 0.175) 50%, rgba(237, 242, 168, 0.175));
 			background-size: 128px 128px, auto;
@@ -2769,13 +2784,12 @@ input, select, textarea {
 			background-size: 128px 128px, auto;
 			background-color: #2d2d65;
 		}
-
-		.panel > *.color5-alt {
+		
+		.panel.color5-alt {
 			background-image: url("../../images/overlay.png"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
 			background-size: 128px 128px, auto;
 			background-color: #5b5a9e;
 		}
-
 	@media screen and (max-width: 736px) {
 
 		.panel {
@@ -2809,7 +2823,13 @@ input, select, textarea {
 				background-size: 128px 128px, auto;
 				background-color: #2486b9;
 			}
-
+			
+			.panel > *.color5 {
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+				background-size: 128px 128px, auto;
+				background-color: #5b5a9e;
+			}
+			
 			.panel > *.color1-alt {
 				background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(91, 90, 158, 0.175) 25%, rgba(85, 165, 194, 0.175) 50%, rgba(237, 242, 168, 0.175));
 				background-size: 128px 128px, auto;
@@ -2833,7 +2853,7 @@ input, select, textarea {
 				background-size: 128px 128px, auto;
 				background-color: #2d2d65;
 			}
-
+			
 			.panel > *.color5-alt {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
 				background-size: 128px 128px, auto;
@@ -3266,12 +3286,6 @@ input, select, textarea {
 				background-size: 128px 128px, auto;
 				background-color: #2d2d65;
 			}
-			
-			.panel > *.color5-alt {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-				background-size: 128px 128px, auto;
-				background-color: #5b5a9e;
-			}
 
 	}
 
@@ -3623,7 +3637,6 @@ input, select, textarea {
 			font-size: 0.8rem;
 			color: rgba(46, 43, 55, 0.375);
 			margin-bottom: 0;
-			
 		}
 
 			#wrapper > .copyright a:hover {
@@ -3648,7 +3661,7 @@ input, select, textarea {
 				user-select: none;
 			}
 
-			#wrapper.is-dragging *:not(a, .image) {
+			#wrapper.is-dragging * {
 				cursor: -moz-grab;
 				cursor: -webkit-grab;
 				cursor: -ms-grab;

@@ -1,9 +1,3 @@
-/*
-	Strata by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
-
 (function($) {
 
 	var $window = $(window),
@@ -115,24 +109,3 @@
 			});
 
 })(jQuery);
-
-{//console 彩蛋
-      console.info(" %c 「マキシマム、広がる世界」 ","color:#902225" );
-	  console.info(" %c 「抱きしめる、愛する世界」 ","color:#65C8D7" );
-      
-	  console.info(" %c 「新しい時代に向かい」 ","color:#902225" );
-	  console.info(" %c 「捧げるPlusの願い」 ","color:#65C8D7" );
-	  
-	  console.info(" %c 「100億の瞳の中で」 ","color:#902225" );
-	  console.info(" %c 「4千の年月を越え」 ","color:#65C8D7" );
-	
-	  console.info(" %c 「今、ワタシ達は立ってる」 ","color:#902225" );
-	  console.info(" %c 「仮想とリアルの彼方」 ","color:#65C8D7" );
-	  
-	  console.info(" %c 「解き放て、二つのレガシー」 ","color:#902225" );
-	  console.info(" %c 「現在を越えて、ヒストリー」 ","color:#65C8D7" );
-	
-	  console.info(" %c 「紡ぎだす、二人のエナジー」 ","color:#902225" );
-	  console.info(" %c 「巻き起こすよ、ストリーム」 ","color:#65C8D7" );
-
-}
