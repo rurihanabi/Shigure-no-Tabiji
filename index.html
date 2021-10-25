@@ -28,12 +28,19 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
 		<script>
-		document.addEventListener('visibilitychange', function () {
-			if (document.visibilityState == 'hidden') {
-				normal_title = document.title;
-				document.title = '(´・ω・`)';
-				} else document.title = normal_title;
-				});
+			document.addEventListener('visibilitychange', 
+				function () 
+					{
+						if (document.visibilityState == 'hidden')
+							{
+								normal_title = document.title;
+								document.title = '(´・ω・`)';
+							} 
+				
+						else 
+							document.title = normal_title;
+					}
+				);
 		</script>
 		
 
