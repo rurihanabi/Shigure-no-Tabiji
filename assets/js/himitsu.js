@@ -5,3 +5,11 @@
 		}
 	});
 });
+
+/$(function(){
+	$(document).sankagari({
+		activated : function(){
+			location.href = "../mijiu.html";
+		}
+	});
+});
