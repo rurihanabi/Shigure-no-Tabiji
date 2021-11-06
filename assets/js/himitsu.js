@@ -6,10 +6,10 @@
 	});
 });
 
-/$(function(){
+$(function(){
 	$(document).sankagari({
 		activated : function(){
-			location.href = "../mijiu.html";
+			location.href = "https://github.com/rurihanabi/Shigure-no-Tabiji";
 		}
 	});
 });
