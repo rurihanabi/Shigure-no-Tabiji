@@ -751,3 +751,41 @@
 					});
 
 })(jQuery);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{//console 彩蛋
+      console.log(" %c 你若要說“早上好” ","color:#06325E" );
+	  console.log(" %c 我就回以“早·上·好” ","color:#06325E" );
+
+	  console.log(" %c “你好嗎”的話 ","color:#041941" );
+	  console.log(" %c 就是“你·好·嗎” ","color:#041941" );
+
+	  console.log(" %c “晚上好”的話 ","color:#7295CA" );
+	  console.log(" %c 就“晚·上·好” ","color:#7295CA" );
+
+	  console.log(" %c 但是呢 ","color:#0D57A2" );
+	  console.log(" %c 你若說「喜歡」與我的話 ","color:#0D57A2" );
+
+	  console.log(" %c 我亦會以 ","color:#" );
+	  console.log(" %c 「最喜歡」","color:#990917","永至與你");
+} 
